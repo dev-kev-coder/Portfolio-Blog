@@ -1,12 +1,38 @@
+:root {
+    --mainAccentColor: #05386b;
 
+    /* --mainColor: #5CDB95; */
+    --color4: #49c5b6;
+    --textColor: #EDF5E1;
+}
+
+
+* {
+    color: var(--textColor);
+}
+body {
+    font-family: Verdana, sans-serif;
+    background-color: var(--color4);
+}
+
+/******* Navbar styling *******/
 #mainNav {
-    background-color: green !important;
-    color: black !important;
+    background-color: var(--mainAccentColor);
+    color: black;
 }
 
 .navbar-toggler {
-    background-color: black;
+    background-color: var(--color4);
 }
-* {
-    color: black !important;
+
+.logo {
+    width: 1em;
+    height: 1em;
+    /* position: relative; */
+    /* top:.1em; */
+}
+
+/******* Footer styling *******/
+footer {
+    background-color: green;
 }
