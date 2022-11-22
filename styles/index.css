@@ -1,24 +1,26 @@
 :root {
-    --mainAccentColor: #05386b;
-
-    /* --mainColor: #5CDB95; */
-    --color4: #49c5b6;
-    --textColor: #EDF5E1;
+    --darkPrimaryColor: #0097a7;
+    --lightPrimaryColor: #b2ebf2;
+    --primaryColor: #00bcd4;
+    --textAndIconColor: #ffffff;
+    --accentColor: #ffc107;
+    --primaryText: #212121;
+    --secondaryText: #757575;
+    --dividerColor: #bdbdbd;
 }
 
-
 * {
-    color: var(--textColor);
+    color: var(--primaryText) !important;
 }
 body {
     font-family: Verdana, sans-serif;
-    background-color: var(--color4);
+    background-color: var(--darkPrimaryColor);
+    height: 100%;
 }
 
 /******* Navbar styling *******/
 #mainNav {
-    background-color: var(--mainAccentColor);
-    color: black;
+    background-color: var(--darkPrimaryColor);
 }
 
 .navbar-toggler {
@@ -35,4 +37,19 @@ body {
 /******* Footer styling *******/
 footer {
     background-color: green;
+}
+
+/******* Home styling *******/
+#home {
+    background-color: var(--primaryColor);
+    color: white  ;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/******* Home styling *******/
+#about {
+    background-color:var(--lightPrimaryColor);
+    height: 100vh;
 }
