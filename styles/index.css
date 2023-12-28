@@ -43,19 +43,6 @@ section {
     /* border: solid 2px red */
 }
 
-
-#home > h1{
-    font-size: 2.5rem;
-    margin-bottom: 4rem;
-}
-
-#home > p{
-    font-size: 1rem;
-    font-style: italic;
-    color: var(--lightPrimaryColor);
-}
-
-
 /******* Footer styling *******/
 footer {
     background-color: var(--darkPrimaryColor);
@@ -67,6 +54,17 @@ footer {
 #home {
     height: 20rem;
     width: 100%;
+}
+
+#home > h1{
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#home > p{
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--lightPrimaryColor);
 }
 
 /******* Home styling *******/
