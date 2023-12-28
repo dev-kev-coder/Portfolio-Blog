@@ -30,6 +30,11 @@ body {
     width: 1em;
     height: 1em;
 }
+
+.active {
+    color: var(--primaryColor) !important;
+}
+
 /******* Main styling *******/
 main {
     margin-top: 5rem;
@@ -52,8 +57,9 @@ footer {
 
 /******* Home styling *******/
 #home {
-    height: 20rem;
+    height: 70dvh;
     width: 100%;
+    text-align: center;
 }
 
 #home > h1{
