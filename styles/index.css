@@ -9,18 +9,17 @@
     --dividerColor: #bdbdbd;
 }
 
-* {
-    color: var(--primaryText) !important;
-}
 body {
     font-family: Verdana, sans-serif;
     background-color: var(--darkPrimaryColor);
+    color: var(--textAndIconColor);
     height: 100%;
 }
 
 /******* Navbar styling *******/
 #mainNav {
     background-color: var(--darkPrimaryColor);
+
 }
 
 .navbar-toggler {
@@ -30,13 +29,13 @@ body {
 .logo {
     width: 1em;
     height: 1em;
-    /* position: relative; */
-    /* top:.1em; */
 }
 
 /******* Footer styling *******/
 footer {
-    background-color: green;
+    background-color: var(--darkPrimaryColor);
+    text-align: center ;
+    padding: 10px;
 }
 
 /******* Home styling *******/
