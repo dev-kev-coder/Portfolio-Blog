@@ -30,6 +30,11 @@ body {
     width: 1em;
     height: 1em;
 }
+/******* Main styling *******/
+main {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
 /******* Footer styling *******/
 footer {
