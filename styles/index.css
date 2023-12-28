@@ -1,8 +1,9 @@
 :root {
-    --darkPrimaryColor: #0097a7;
+    /* --darkPrimaryColor: #0097a7; */
+    --darkPrimaryColor: #2c3e50;
     --lightPrimaryColor: #b2ebf2;
     --primaryColor: #00bcd4;
-    --textAndIconColor: #ffffff;
+    --textAndIconColor: #ecf0f1;
     --accentColor: #ffc107;
     --primaryText: #212121;
     --secondaryText: #757575;
@@ -19,7 +20,6 @@ body {
 /******* Navbar styling *******/
 #mainNav {
     background-color: var(--darkPrimaryColor);
-
 }
 
 .navbar-toggler {
@@ -36,6 +36,26 @@ main {
     margin-bottom: 5rem;
 }
 
+/******* Section styling *******/
+section {
+    margin-top: 5rem;
+    padding: 2rem;
+    /* border: solid 2px red */
+}
+
+
+#home > h1{
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#home > p{
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--lightPrimaryColor);
+}
+
+
 /******* Footer styling *******/
 footer {
     background-color: var(--darkPrimaryColor);
@@ -45,15 +65,12 @@ footer {
 
 /******* Home styling *******/
 #home {
-    background-color: var(--primaryColor);
-    color: white  ;
-    text-align: center;
-    height: 100vh;
+    height: 20rem;
     width: 100%;
 }
 
 /******* Home styling *******/
 #about {
-    background-color:var(--lightPrimaryColor);
+    /* background-color:var(--lightPrimaryColor); */
     height: 100vh;
 }
