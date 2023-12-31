@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.fun-facts li::before {
+    content: '•'; /* Unicode character for bullet */
+    color: var(--primaryColor); /* Set the color of the bullet */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Adjust position as needed */
+    line-height: 2;
+}
