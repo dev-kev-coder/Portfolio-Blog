@@ -97,9 +97,18 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
+.button {
+    position: relative;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--accentColor);
+    color: var(--primaryText);
+    box-shadow: none;
+    bottom: 0;
+    transition: bottom ease .2s, box-shadow ease .2s;
+}
 
-/******* Home styling *******/
-#about {
-    /* background-color:var(--lightPrimaryColor); */
-    height: 100vh;
+.button:hover {
+    bottom: .2rem;
+    box-shadow: 0px 0px 5px 5px var(--secondaryText);
 }
