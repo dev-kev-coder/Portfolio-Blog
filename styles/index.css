@@ -112,3 +112,11 @@ footer {
     bottom: .2rem;
     box-shadow: 0px 0px 5px 5px var(--secondaryText);
 }
+
+.navbar-toggler {
+    background-color: var(--accentColor) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../images/hamburger_menu_icon_black.svg') !important;
+}
