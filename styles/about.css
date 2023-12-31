@@ -22,7 +22,7 @@ h2 {
     content: '•'; /* Unicode character for bullet */
     color: var(--primaryColor); /* Set the color of the bullet */
     display: inline-block;
-    width: 1em;
-    margin-left: -1em; /* Adjust position as needed */
-    line-height: 2;
+    width: 2em;
+    line-height: 3;
 }
+

@@ -43,9 +43,7 @@ main {
 
 /******* Section styling *******/
 section {
-    margin-top: 5rem;
     padding: 2rem;
-    /* border: solid 2px red */
 }
 
 /******* Footer styling *******/
@@ -119,4 +117,12 @@ footer {
 
 .navbar-toggler-icon {
     background-image: url('../images/hamburger_menu_icon_black.svg') !important;
+}
+
+.divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    height: .05rem;
+    background-color: #00bcd4;
 }
