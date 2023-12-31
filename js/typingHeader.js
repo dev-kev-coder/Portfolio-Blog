@@ -2,11 +2,18 @@ const titles = ["Full-Stack Developer", "React Developer", "Problem Solver", "Li
 
 const landingHeader = document.querySelector('#heading');
 
+function createCursorSpan() {
+    const cursorSpan = document.createElement('span');
+
+    cursorSpan.id = 'cursor';
+    
+    cursorSpan.textContent = "|";
+
+    return cursorSpan;
+}
 
 function startTyping(words, htmlEl, timeDelay) {
-    const cursorSpan = document.createElement('span');
-    cursorSpan.id = 'cursor';
-    cursorSpan.textContent = "|";
+    const cursorSpan = createCursorSpan();
 
     const copyWords = [...words];
     let currentWord = '';
