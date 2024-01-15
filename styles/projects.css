@@ -1,0 +1,26 @@
+.projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* adjust the gap as per your design */
+    gap: 16px; 
+    /* adjust the padding as per your design */
+    padding: 16px;
+}
+
+.project-card {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    flex: 1 1 calc(25% - 16px);
+    max-width: calc(25% - 16px);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+      flex: 0 0 100%; /* on small screens take full width */
+      max-width: 100%;
+    }
+  }
