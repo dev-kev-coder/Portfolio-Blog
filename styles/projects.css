@@ -35,12 +35,12 @@
 }
 
 .project-card > .project-description {
-  font-size: 16px;
+  font-size: 1rem;
   max-height: 10rem;
   min-height: 10rem;
   overflow-y: auto;
   padding: .5rem;
-
+  line-height: 1.3;
 }
 
 .project-card > .project-description::-webkit-scrollbar {
@@ -86,16 +86,26 @@
   min-height: 5rem;
 }
 
-.project-card > .project-tools li::before {
+/* .project-card > .project-tools li::before {
   content: '•';
   color: var(--primaryColor);
   display: inline-block;
-  width: 1em;
+  width: .8em;
+} */
+
+.section-header {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  padding: 1.5rem;
 }
 
 .project-card > .project-tools > li {
   width: 33%;
   flex: 1 1 calc(5% - 3rem);
+}
+
+.placeholder {
+  background-color: #555;
 }
 
 @media (max-width: 768px) {
